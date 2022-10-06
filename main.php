@@ -11,14 +11,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <form method="get">
-    <label for="fname">Name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="lname">Surname:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br>
-    <label for="dateOfBirth">Date of birth:</label><br>
-    <input type="text" id="dateOfBirth" name="dateOfBirth" value=""><br>
-    <input type="submit" value="Submit">
-    </form> 
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Surname:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="dateOfBirth">Date of birth:</label><br>
+        <input type="text" id="dateOfBirth" name="dateOfBirth" value=""><br>
+        <input type="submit" value="Submit">
+    </form>
     <ul>
         <li>
             <p><?php echo $_GET['fname']; ?></p>
